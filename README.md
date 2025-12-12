@@ -148,6 +148,6 @@ tokenizer = XLMRobertaTokenizer.from_pretrained("./model")
 
 ---
 
-👤 Author
+👤 Author(This project is built end-to-end by me)
 
 Janith Perera
