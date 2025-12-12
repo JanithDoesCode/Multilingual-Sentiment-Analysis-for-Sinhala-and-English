@@ -1,5 +1,7 @@
 # Multilingual Sentiment Analysis (English | Sinhala | Singlish)
 
+![1](https://raw.githubusercontent.com/JanithDoesCode/Multilingual-Sentiment-Analysis-for-Sinhala-and-English/main/Screenshots/1.png)
+![5](https://raw.githubusercontent.com/JanithDoesCode/Multilingual-Sentiment-Analysis-for-Sinhala-and-English/main/Screenshots/5.png)
 This project is a complete **end-to-end multilingual sentiment analysis system** built using Transformer-based Natural Language Processing.
 
 The model supports:
@@ -76,9 +78,9 @@ predict("Umbalage service eka naraka")
 ## Gradio UI
 
 Run the application:
-
+```
 python app.py
-
+```
 Steps:
 
 1. Open the local URL shown in terminal (e.g. http://127.0.0.1:7860)
@@ -99,47 +101,48 @@ Steps:
 
 ## Screenshots (Gradio UI)
 
-> Folder name must be exactly Screenshots (capital S)
-
+![2](https://raw.githubusercontent.com/JanithDoesCode/Multilingual-Sentiment-Analysis-for-Sinhala-and-English/main/Screenshots/2.png)
+![3](https://raw.githubusercontent.com/JanithDoesCode/Multilingual-Sentiment-Analysis-for-Sinhala-and-English/main/Screenshots/3.png)
+![4](https://raw.githubusercontent.com/JanithDoesCode/Multilingual-Sentiment-Analysis-for-Sinhala-and-English/main/Screenshots/4.png)
 
 ## Model Files
 
 The model/ directory contains:
 
-config.json
+- config.json
 
-model.safetensors
+- model.safetensors
 
-tokenizer_config.json
+- tokenizer_config.json
 
-sentencepiece.bpe.model
+- sentencepiece.bpe.model
 
-special_tokens_map.json
+- special_tokens_map.json
 
 
 ## Load the model:
-
+```
 from transformers import XLMRobertaForSequenceClassification, XLMRobertaTokenizer
 
 model = XLMRobertaForSequenceClassification.from_pretrained("./model")
 tokenizer = XLMRobertaTokenizer.from_pretrained("./model")
-
+```
 
 ---
 
 ## What I Learned
 
-Multilingual NLP processing
+- Multilingual NLP processing and working with modern NLP pipelines
 
-Fine-tuning Transformer models
+- Fine-tuning Transformer models
 
-Handling low-resource languages
+- Handling low-resource languages
 
-Model evaluation using F1, Precision, Recall
+- Model evaluation using F1, Precision, Recall
 
-Gradio UI deployment
+- Gradio UI deployment
 
-Structuring production-ready ML projects
+- Structuring production-ready ML projects
 
 
 
