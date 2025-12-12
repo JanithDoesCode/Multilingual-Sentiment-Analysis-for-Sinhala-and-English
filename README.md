@@ -105,18 +105,18 @@ Here are some screenshots from the Gradio UI:
 ## UI Screenshots
 
  
-![Screenshot 1](screenshots/1.png)
+![Screenshot 1](Screenshots/1.png)
  
-![Screenshot 2](screenshots/2.png)
+![Screenshot 2](Screenshots/2.png)
 
 
-![Screenshot 3](screenshots/3.png)
+![Screenshot 3](Screenshots/3.png)
 
 
-![Screenshot 4](screenshots/4.png)
+![Screenshot 4](Screenshots/4.png)
 
 
-![Screenshot 5](screenshots/5.png)
+![Screenshot 5](Screenshots/5.png)
 ---
 
 📦 Model Folder
