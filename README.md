@@ -102,28 +102,21 @@ The model predicts the sentiment instantly
 📷 Screenshots
 
 Here are some screenshots from the Gradio UI:
+## UI Screenshots
+
+ 
+![Screenshot 1](screenshots/1.png)
+ 
+![Screenshot 2](screenshots/2.png)
 
 
+![Screenshot 3](screenshots/3.png)
 
 
-> Tip: Create a folder screenshots/ in your repo and save your screenshots there.
+![Screenshot 4](screenshots/4.png)
 
 
-
-
----
-
-🎥 YouTube Demo
-
-Watch a demo of the model in action:
-
-
-
-> Replace YOUR_VIDEO_ID with your actual YouTube video ID.
-
-
-
-
+![Screenshot 5](screenshots/5.png)
 ---
 
 📦 Model Folder
