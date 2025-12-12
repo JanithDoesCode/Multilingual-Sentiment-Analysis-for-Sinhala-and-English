@@ -69,8 +69,8 @@ outputs/metrics.txt
 ```python
 from inference import predict
 
-predict("Meka hari hodai machan 👌")
-predict("Umbalage service eka naraka")
+predict("Meka nam niyamai machan 👌")
+predict("Umbalage service eka narakaii")
 
 
 ```
